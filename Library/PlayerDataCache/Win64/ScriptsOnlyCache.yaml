@@ -5,7 +5,10 @@ ScriptsOnlyBuild:
     - ButtonHoldHandler
     - CameraManager
     - GameManager
-    - PinSpawner
+    - HighScoreManager
+    - PinBallSpawner
+    - PowerBarManager
+    - ScoreManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -30,6 +33,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -67,7 +71,7 @@ ScriptsOnlyBuild:
     fullTypeName: CameraManager
     methodName: SwitchCamera
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/RegularBowling.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -103,37 +107,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16660}
+      Script: {instanceID: 16682}
     - Class: 114
-      Script: {instanceID: 17236}
+      Script: {instanceID: 17218}
     - Class: 114
-      Script: {instanceID: 17654}
+      Script: {instanceID: 17262}
     - Class: 114
-      Script: {instanceID: 17856}
+      Script: {instanceID: 17680}
     - Class: 114
-      Script: {instanceID: 18144}
+      Script: {instanceID: 17882}
     - Class: 114
-      Script: {instanceID: 19120}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 19370}
+      Script: {instanceID: 18172}
     - Class: 114
-      Script: {instanceID: 20058}
+      Script: {instanceID: 18668}
     - Class: 114
-      Script: {instanceID: 20600}
+      Script: {instanceID: 18676}
     - Class: 114
-      Script: {instanceID: 20750}
+      Script: {instanceID: 18922}
     - Class: 114
-      Script: {instanceID: 21064}
+      Script: {instanceID: 19106}
     - Class: 114
-      Script: {instanceID: 26910}
+      Script: {instanceID: 19150}
     - Class: 114
-      Script: {instanceID: 30164}
+      Script: {instanceID: 19400}
     - Class: 114
-      Script: {instanceID: 31698}
+      Script: {instanceID: 20090}
     - Class: 114
-      Script: {instanceID: 35242}
+      Script: {instanceID: 20122}
     - Class: 114
-      Script: {instanceID: 35614}
+      Script: {instanceID: 20532}
+    - Class: 114
+      Script: {instanceID: 20636}
+    - Class: 114
+      Script: {instanceID: 20786}
+    - Class: 114
+      Script: {instanceID: 21100}
+    - Class: 114
+      Script: {instanceID: 22358}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -209,6 +221,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c13571fdb5539f703a1d1cf20efbf24d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: b12640dfdb5966813e9dd838893e6c4a
@@ -349,6 +367,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 8bcc953c66dada8146370bc4d0c4280e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PinBallSpawner
+  - hash:
+      serializedVersion: 2
       Hash: b98001682cba83786775c9e415b89a61
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -457,6 +481,18 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 51b2bc05aa4d68b39e9ad969730831d9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BowlingBall
+  - hash:
+      serializedVersion: 2
+      Hash: 45e5e5c28047e9da9a11859dc7d7455e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PowerBarManager
+  - hash:
+      serializedVersion: 2
       Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
@@ -509,6 +545,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 1fae545d390ba6583e5aa23e5dd711f9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HighScoreManager
   - hash:
       serializedVersion: 2
       Hash: 042785b832afb73fd0585521aa7baf43
@@ -667,6 +709,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 005d118710b4e9eaf5260c6cf13bb269
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CameraManager
+  - hash:
+      serializedVersion: 2
       Hash: d82086405f46de14829f6b4bcbdd8fc9
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -701,6 +749,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7188997dc9b2e8f17bdcf902609bdfcb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScoreManager
   - hash:
       serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
@@ -913,6 +967,12 @@ ScriptsOnlyBuild:
     className: UnityOnParticleCollisionMessageListener
   - hash:
       serializedVersion: 2
+      Hash: bc18685f344d89966304a13e6f80c48d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ButtonHoldHandler
+  - hash:
+      serializedVersion: 2
       Hash: 0f5a086d4d028363983ba6ca30a01397
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -977,37 +1037,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 4f81ef942ce276905cb4fd1c9c4a61f2
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: BowlingBall
-  - hash:
-      serializedVersion: 2
-      Hash: 9c664e9c51dd30c6dd9a443f71a25210
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
-      Hash: 90259d43ad750f278ccafe55548a3109
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PinSpawner
-  - hash:
-      serializedVersion: 2
-      Hash: bc18685f344d89966304a13e6f80c48d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ButtonHoldHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 005d118710b4e9eaf5260c6cf13bb269
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CameraManager
   platform: 19
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Balik/Desktop/Bowling Mini Project/Bowling Mini Project.exe
+  - Assets/Scenes/RegularBowling.unity
+  playerPath: C:/Users/Balik/Desktop/Bowling Game Unity/Bowling Mini Project.exe

@@ -307,11 +307,14 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 -analyzer:"H:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"H:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/BowlingBall.cs"
-"Assets/ButtonHoldHandler.cs"
-"Assets/CameraManager.cs"
-"Assets/GameManager.cs"
-"Assets/PinBallSpawner.cs"
+"Assets/RegularBowlingAssets/Scripts/BowlingBall.cs"
+"Assets/RegularBowlingAssets/Scripts/ButtonHoldHandler.cs"
+"Assets/RegularBowlingAssets/Scripts/CameraManager.cs"
+"Assets/RegularBowlingAssets/Scripts/GameManager.cs"
+"Assets/RegularBowlingAssets/Scripts/HighScoreManager.cs"
+"Assets/RegularBowlingAssets/Scripts/PinBallSpawner.cs"
+"Assets/RegularBowlingAssets/Scripts/PowerBarManager.cs"
+"Assets/RegularBowlingAssets/Scripts/ScoreManager.cs"
 -langversion:9.0
 
 /deterministic
