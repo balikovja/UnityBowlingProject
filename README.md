@@ -14,6 +14,8 @@ Future development will add:
 - Spin
 - Challenge Mode (Obstacles like Wii Sports Bowling training mode, with specific pin setups)
 - Start Menu with player profiles
+- Tutorial
+- Instant Replay On Strikes and Spares
 
 ## Employers
 If you would like to investigate the C# coding/scripting, please see Assets/RegularBowlingAssets/Scripts
