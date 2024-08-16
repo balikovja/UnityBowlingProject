@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public Canvas regularBowlingCanvas;
+    public Canvas settingsCanvas;
     public Button bowlButton;
     public Button resetButton;
     public Button cameraButton;
@@ -13,8 +15,10 @@ public class GameManager : MonoBehaviour
     public Button moveRightButton;
     public Button rotateLeftButton;
     public Button rotateRightButton;
-    public Button exitButton;
+    public Button settingsButton;
+    [SerializeField]
     private GameObject bowlingBall;
+    [SerializeField]
     private GameObject guideLine;
     public PinBallSpawner pinBallSpawner;
     /*
@@ -22,6 +26,7 @@ public class GameManager : MonoBehaviour
     private Vector3 lastBowlPosition;
     private Quaternion lastBowlRotation;
     */
+    [SerializeField]
     private CameraManager cameraManager;
     public TextMeshProUGUI gameOverText;
     public Button restartGameButton;
@@ -29,6 +34,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverTextBackground;
     public HighScoreManager highScoreManager;
     public PowerBarManager powerBarManager;
+    [SerializeField]
     private int bowlButtonClicked = 0;
     
     
@@ -37,7 +43,7 @@ public class GameManager : MonoBehaviour
     {
         bowlButton.onClick.AddListener(HandleBowlButtonClick);
         resetButton.onClick.AddListener(ResetLane);
-        exitButton.onClick.AddListener(Exit);
+        settingsButton.onClick.AddListener(Settings);
         restartGameButton.onClick.AddListener(ResetGame);
         restartGameButton.gameObject.SetActive(false);
         gameOverText.gameObject.SetActive(false);
@@ -167,16 +173,17 @@ public class GameManager : MonoBehaviour
         moveRightButton.gameObject.SetActive(isActive);
         rotateLeftButton.gameObject.SetActive(isActive);
         rotateRightButton.gameObject.SetActive(isActive);
+        settingsButton.gameObject.SetActive(isActive);
     }
 
 
     public void GameOver()
     {
         gameOver = true;
-        gameOverText.text = "Game Over.\nFinal Score: " + ScoreManager.Instance.GetScore();
+        gameOverText.text = "Game Over\nFinal Score: " + ScoreManager.Instance.GetScore();
         if (highScoreManager.CheckForHighscore(ScoreManager.Instance.GetScore()))
         {
-            gameOverText.text = "Game Over.\nNew High Score Of " + highScoreManager.GetHighscore() + "!";
+            gameOverText.text = "Game Over\nNew High Score Of " + highScoreManager.GetHighscore() + "!";
         }
         gameOverText.gameObject.SetActive(true);
         gameOverTextBackground.SetActive(true);
@@ -194,8 +201,9 @@ public class GameManager : MonoBehaviour
         gameOver = false;
     }
 
-    void Exit()
+    void Settings()
     {
-        Application.Quit();
+        regularBowlingCanvas.gameObject.SetActive(false);
+        settingsCanvas.gameObject.SetActive(true);
     }
 }

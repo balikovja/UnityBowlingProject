@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: a5d9d491fb698d94fb408c067a224390
+  - enabled: 1
+    path: Assets/Scenes/RegularBowling.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/ProfileMenu.unity
+    guid: 03c3df55a57e77641a47f8aeda0ca373
+  - enabled: 1
+    path: Assets/Scenes/AddProfileScreen.unity
+    guid: b1c2f453b0409eb478d8de10d33664be
   m_configObjects: {}

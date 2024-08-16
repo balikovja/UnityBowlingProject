@@ -4,6 +4,7 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class HighScoreManager : MonoBehaviour
 {
+    private const string ProfilesKey = "Profiles";
     private int highscore;
     public TextMeshProUGUI highScoreText;
 
@@ -15,20 +16,16 @@ public class HighScoreManager : MonoBehaviour
 
     void InitializeHighscore()
     {
-        if (!PlayerPrefs.HasKey("Highscore"))
-        {
-            PlayerPrefs.SetInt("Highscore", 0);
-            PlayerPrefs.Save();
-        }
-
-        highscore = PlayerPrefs.GetInt("Highscore");
+        int currentProfile = PlayerPrefs.GetInt(ProfilesKey + "_Selected", 0);
+        highscore = PlayerPrefs.GetInt($"{ProfilesKey}_{currentProfile}_RegularHighScore");
     }
 
     public bool CheckForHighscore(int score)
     {
-        if (score > PlayerPrefs.GetInt("Highscore"))
+        int currentProfile = PlayerPrefs.GetInt(ProfilesKey + "_Selected", 0);
+        if (score > PlayerPrefs.GetInt($"{ProfilesKey}_{currentProfile}_RegularHighScore"))
         {
-            PlayerPrefs.SetInt("Highscore", score);
+            PlayerPrefs.SetInt($"{ProfilesKey}_{currentProfile}_RegularHighScore", score);
             PlayerPrefs.Save();
             highscore = score;
             UpdateHighScoreText();

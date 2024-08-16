@@ -7,8 +7,11 @@ public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager Instance { get; private set; }
 
+    [SerializeField]
     private int score = 0;
+    [SerializeField]
     private int frame = 1;
+    [SerializeField]
     private List<int> multiplierCount = new List<int>();
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI frameText;
@@ -21,7 +24,6 @@ public class ScoreManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {

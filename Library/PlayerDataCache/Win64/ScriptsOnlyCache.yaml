@@ -1040,4 +1040,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/RegularBowling.unity
-  playerPath: C:/Users/Balik/Desktop/Bowling Game Unity/Bowling Mini Project.exe
+  playerPath: H:/Balik/Documents/UnityBowling/Bowling Mini Project.exe
