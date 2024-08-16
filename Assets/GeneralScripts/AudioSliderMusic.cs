@@ -16,7 +16,7 @@ public class AudioSliderMusic : MonoBehaviour
 
     public void OnChangeSlider(float Value)
     {
-        valueText.SetText($"{Value.ToString("N4")}");
+        valueText.SetText(Mathf.RoundToInt(Value * 100).ToString());
         audioSource.volume = Value;
     }
 

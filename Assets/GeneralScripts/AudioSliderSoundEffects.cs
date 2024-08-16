@@ -11,6 +11,7 @@ public class AudioSliderSoundEffects : MonoBehaviour
 
     public void OnChangeSlider(float Value)
     {
-        valueText.SetText($"{Value.ToString("N4")}");
+        Debug.Log(Value);
+        valueText.SetText(Mathf.RoundToInt(Value * 100).ToString());
     }
 }

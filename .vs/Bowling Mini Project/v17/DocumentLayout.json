@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\assets\\regularbowlingassets\\scripts\\settingsmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|h:\\balik\\documents\\unityprojects\\bowling mini project\\assets\\regularbowlingassets\\scripts\\settingsmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|solutionrelative:assets\\regularbowlingassets\\scripts\\settingsmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\assets\\generalscripts\\audioslidermusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|solutionrelative:assets\\generalscripts\\audioslidermusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\assets\\generalscripts\\audioslidersoundeffects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|solutionrelative:assets\\generalscripts\\audioslidersoundeffects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|h:\\balik\\documents\\unityprojects\\bowling mini project\\assets\\generalscripts\\audiotogglemusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\assets\\generalscripts\\audiotogglemusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|solutionrelative:assets\\generalscripts\\audiotogglemusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,20 +23,16 @@
       "RelativeMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|solutionrelative:assets\\generalscripts\\menumusichandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\assets\\generalscripts\\audioslidermusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|solutionrelative:assets\\generalscripts\\audioslidermusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\assets\\menuassets\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|solutionrelative:assets\\menuassets\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|h:\\balik\\documents\\unityprojects\\bowling mini project\\assets\\profilemenuassets\\profilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\assets\\profilemenuassets\\profilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|solutionrelative:assets\\profilemenuassets\\profilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|h:\\balik\\documents\\unityprojects\\bowling mini project\\assets\\generalscripts\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\assets\\generalscripts\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|solutionrelative:assets\\generalscripts\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\assets\\menuassets\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9850442F-8A87-E683-D94C-9808E1A2D9B9}|Assembly-CSharp.csproj|solutionrelative:assets\\menuassets\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,33 +46,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProfileManager.cs",
               "DocumentMoniker": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\ProfileMenuAssets\\ProfileManager.cs",
               "RelativeDocumentMoniker": "Assets\\ProfileMenuAssets\\ProfileManager.cs",
               "ToolTip": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\ProfileMenuAssets\\ProfileManager.cs",
               "RelativeToolTip": "Assets\\ProfileMenuAssets\\ProfileManager.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T07:03:06.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Profile.cs",
               "DocumentMoniker": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\GeneralScripts\\Profile.cs",
               "RelativeDocumentMoniker": "Assets\\GeneralScripts\\Profile.cs",
               "ToolTip": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\GeneralScripts\\Profile.cs",
               "RelativeToolTip": "Assets\\GeneralScripts\\Profile.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T07:02:54.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AudioToggleMusic.cs",
               "DocumentMoniker": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\GeneralScripts\\AudioToggleMusic.cs",
               "RelativeDocumentMoniker": "Assets\\GeneralScripts\\AudioToggleMusic.cs",
@@ -85,51 +85,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AudioSliderSoundEffects.cs",
               "DocumentMoniker": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\GeneralScripts\\AudioSliderSoundEffects.cs",
               "RelativeDocumentMoniker": "Assets\\GeneralScripts\\AudioSliderSoundEffects.cs",
               "ToolTip": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\GeneralScripts\\AudioSliderSoundEffects.cs",
               "RelativeToolTip": "Assets\\GeneralScripts\\AudioSliderSoundEffects.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T06:03:53.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AudioSliderMusic.cs",
               "DocumentMoniker": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\GeneralScripts\\AudioSliderMusic.cs",
               "RelativeDocumentMoniker": "Assets\\GeneralScripts\\AudioSliderMusic.cs",
               "ToolTip": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\GeneralScripts\\AudioSliderMusic.cs",
               "RelativeToolTip": "Assets\\GeneralScripts\\AudioSliderMusic.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBoAAABYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T06:03:33.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\MenuAssets\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\MenuAssets\\MenuManager.cs",
               "ToolTip": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\MenuAssets\\MenuManager.cs",
               "RelativeToolTip": "Assets\\MenuAssets\\MenuManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAUAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwBQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T21:49:13.64Z"
+              "WhenOpened": "2024-08-01T21:49:13.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MenuMusicHandler.cs",
               "DocumentMoniker": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\GeneralScripts\\MenuMusicHandler.cs",
               "RelativeDocumentMoniker": "Assets\\GeneralScripts\\MenuMusicHandler.cs",
               "ToolTip": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\GeneralScripts\\MenuMusicHandler.cs",
               "RelativeToolTip": "Assets\\GeneralScripts\\MenuMusicHandler.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwCIAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T03:27:08.033Z",
               "EditorCaption": ""
@@ -142,7 +143,7 @@
               "RelativeDocumentMoniker": "Assets\\RegularBowlingAssets\\Scripts\\SettingsMenuManager.cs",
               "ToolTip": "H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Assets\\RegularBowlingAssets\\Scripts\\SettingsMenuManager.cs",
               "RelativeToolTip": "Assets\\RegularBowlingAssets\\Scripts\\SettingsMenuManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAFAAAA",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAcwNYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T03:17:14.714Z",
               "EditorCaption": ""
