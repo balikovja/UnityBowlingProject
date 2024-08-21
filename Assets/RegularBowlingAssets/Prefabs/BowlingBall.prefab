@@ -146,10 +146,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a6e37cc9fa2514db879d78cc517662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardForce: 50
   leftBorder: 2
   rightBorder: -2
   maxRotation: 10
-  positionIncrement: 0.005
-  rotationIncrement: 0.01
+  positionIncrement: 0.01
+  rotationIncrement: 0.02
   body: {fileID: 4111519390205525999}
+  pinBallSpawner: {fileID: 0}
+  pinSoundHandler: {fileID: 0}

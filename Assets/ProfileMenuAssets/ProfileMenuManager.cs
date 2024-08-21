@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.ConstrainedExecution;
 using TMPro;
@@ -8,6 +9,8 @@ using UnityEngine.UI;
 
 public class ProfileMenuManager : MonoBehaviour
 {
+    public Canvas settingsCanvas;
+    public Canvas profileMenuCanvas;
     public GameObject buttonPrefab;  
     private List<GameObject> buttonList = new List<GameObject>();
     private GameObject lastPressedButton;
@@ -16,6 +19,7 @@ public class ProfileMenuManager : MonoBehaviour
     public Button addProfileButton;
     public Button selectProfileButton;
     public Button deleteProfileButton;
+    public Button settingsButton;
     private Profile selectedProfile;
     private readonly ColorBlock pressedColorBlock = new ColorBlock { 
         normalColor = Color.gray, 
@@ -26,17 +30,22 @@ public class ProfileMenuManager : MonoBehaviour
         colorMultiplier = 1.0f, 
         fadeDuration = 0.1f 
     };
+    private int numOfProfiles;
 
     private void Start()
     {
+        profileMenuCanvas.gameObject.SetActive(true);
+        settingsCanvas.gameObject.SetActive(true);
+        settingsCanvas.gameObject.SetActive(false);
         PopulateProfileList();
         addProfileButton.onClick.AddListener(AddProfile);
         selectProfileButton.onClick.AddListener(SelectProfile);
         deleteProfileButton.onClick.AddListener(DeleteProfile);
+        settingsButton.onClick.AddListener(Settings);
         lastPressedButton = null;
     }
 
-    void PopulateProfileList()
+    private void PopulateProfileList()
     {
         foreach (Transform child in content)
         {
@@ -61,9 +70,10 @@ public class ProfileMenuManager : MonoBehaviour
             newButton.GetComponentInChildren<TextMeshProUGUI>().alignment = TextAlignmentOptions.Center;
             newButton.GetComponentInChildren<TextMeshProUGUI>().verticalAlignment = VerticalAlignmentOptions.Middle;
         }
+        numOfProfiles = profiles.Count;
     }
 
-    void OnProfileSelected(Profile selectedProfile, GameObject pressedButton)
+    private void OnProfileSelected(Profile selectedProfile, GameObject pressedButton)
     {
         if (lastPressedButton != null)
         {
@@ -75,8 +85,15 @@ public class ProfileMenuManager : MonoBehaviour
         this.selectedProfile = selectedProfile;
     }
 
-    void AddProfile()
+    private void AddProfile()
     {
+        StartCoroutine(AddProfileScreenCoroutine());
+    }
+
+    private IEnumerator AddProfileScreenCoroutine()
+    {
+        // ensures button sound plays
+        yield return new WaitForSeconds(0.06f);
         SceneManager.LoadScene("AddProfileScreen");
     }
 
@@ -84,13 +101,20 @@ public class ProfileMenuManager : MonoBehaviour
     {
         if (selectedProfile != null)
         {
-            profileManager.SelectProfile(selectedProfile);
-            SceneManager.LoadScene("MainMenu");
+            StartCoroutine(SelectProfileCoroutine());
         }
         
     }
 
-    void DeleteProfile()
+    private IEnumerator SelectProfileCoroutine()
+    {
+        // ensures button sound plays
+        yield return new WaitForSeconds(0.06f);
+        profileManager.SelectProfile(selectedProfile);
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    private void DeleteProfile()
     {
         if (lastPressedButton != null && selectedProfile != null)
         {
@@ -99,5 +123,16 @@ public class ProfileMenuManager : MonoBehaviour
             selectedProfile = null;
             lastPressedButton = null;
         }
+        numOfProfiles--;
+        if (numOfProfiles == 0)
+        {
+            PopulateProfileList();
+        }
+    }
+
+    private void Settings()
+    {
+        settingsCanvas.gameObject.SetActive(true);
+        profileMenuCanvas.gameObject.SetActive(false);
     }
 }

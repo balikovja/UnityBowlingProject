@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -30,22 +31,30 @@ public class GameManager : MonoBehaviour
     private CameraManager cameraManager;
     public TextMeshProUGUI gameOverText;
     public Button restartGameButton;
+    public Button mainMenuButton;
     private bool gameOver = false;
     public GameObject gameOverTextBackground;
     public HighScoreManager highScoreManager;
     public PowerBarManager powerBarManager;
     [SerializeField]
     private int bowlButtonClicked = 0;
+    public AudioSource bowlingBallSoundManager;
+    private GameObject menuMusicHandler;
     
     
     // Start is called before the first frame update
     void Start()
     {
+        menuMusicHandler = GameObject.FindGameObjectWithTag("Music");
+        settingsCanvas.gameObject.SetActive(true);
+        settingsCanvas.gameObject.SetActive(false);
         bowlButton.onClick.AddListener(HandleBowlButtonClick);
         resetButton.onClick.AddListener(ResetLane);
         settingsButton.onClick.AddListener(Settings);
         restartGameButton.onClick.AddListener(ResetGame);
         restartGameButton.gameObject.SetActive(false);
+        mainMenuButton.onClick.AddListener(MainMenu);
+        mainMenuButton.gameObject.SetActive(false);
         gameOverText.gameObject.SetActive(false);
         gameOverTextBackground.SetActive(false);
         cameraManager = FindObjectOfType<CameraManager>();
@@ -62,6 +71,7 @@ public class GameManager : MonoBehaviour
             lastBowlRotation = bowlingBall.GetComponent<BowlingBall>().transform.rotation;
             */
             SetButtonsActive(false);
+            bowlingBallSoundManager.Play();
             yield return StartCoroutine(bowlingBall.GetComponent<BowlingBall>().BowlCoroutine((powerBarManager.GetPowerRatio() * 30f) + 35f));
             if (!gameOver)
             {
@@ -188,6 +198,7 @@ public class GameManager : MonoBehaviour
         gameOverText.gameObject.SetActive(true);
         gameOverTextBackground.SetActive(true);
         restartGameButton.gameObject.SetActive(true);
+        mainMenuButton.gameObject.SetActive(true);
         SetButtonsActive(false);
     }
 
@@ -196,6 +207,7 @@ public class GameManager : MonoBehaviour
         gameOverText.gameObject.SetActive(false);
         gameOverTextBackground.SetActive(false);
         restartGameButton.gameObject.SetActive(false);
+        mainMenuButton.gameObject.SetActive(false);
         SetButtonsActive(true);
         pinBallSpawner.ResetGame();
         gameOver = false;
@@ -205,5 +217,18 @@ public class GameManager : MonoBehaviour
     {
         regularBowlingCanvas.gameObject.SetActive(false);
         settingsCanvas.gameObject.SetActive(true);
+    }
+
+    private void MainMenu()
+    {
+        StartCoroutine(ReturnToMainMenuCoroutine());
+    }
+
+    private IEnumerator ReturnToMainMenuCoroutine()
+    {
+        // ensures button sound effect plays
+        yield return new WaitForSeconds(0.06f);
+        Destroy(menuMusicHandler);
+        SceneManager.LoadScene("MainMenu");
     }
 }

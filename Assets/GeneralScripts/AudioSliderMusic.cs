@@ -8,6 +8,7 @@ public class AudioSliderMusic : MonoBehaviour
 {
     private const string ProfilesKey = "Profiles";
 
+    [SerializeField]
     private int currentProfile;
     [SerializeField]
     private AudioSource audioSource;
@@ -21,9 +22,14 @@ public class AudioSliderMusic : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         currentProfile = PlayerPrefs.GetInt(ProfilesKey + "_Selected");
-        audioSource.volume = PlayerPrefs.GetFloat($"{ProfilesKey}_{currentProfile}_MusicVolume");
+        audioSource.volume = PlayerPrefs.GetFloat($"{ProfilesKey}_{currentProfile}_MusicVolume", 1.000f);
+    }
+
+    private void Awake()
+    {
+        audioSource = GameObject.FindGameObjectWithTag("Music").GetComponent<AudioSource>();
     }
 }

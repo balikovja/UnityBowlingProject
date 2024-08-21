@@ -60,7 +60,6 @@ public class PinBallSpawner : MonoBehaviour
     public void ManualResetLane()
     {
         SpawnBall();
-        SpawnPins();
     }
 
 

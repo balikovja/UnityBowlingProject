@@ -108,6 +108,7 @@ public class ProfileManager : MonoBehaviour
             bool soundEffectsEnabled = PlayerPrefs.GetInt($"{ProfilesKey}_{i}_SoundEffectsEnabled") == 1 ? true : false;
             float soundEffectsVolume = PlayerPrefs.GetFloat($"{ProfilesKey}_{i}_SoundEffectsVolume");
 
+            // Debug.Log($"name: {name}, regularHighScore: {regularHighScore}, challengeHighScore: {challengeHighScore}, musicEnabled: {musicEnabled}, musicVolume: {musicVolume}, soundEffectsEnabled: {soundEffectsEnabled}, soundEffectsVolume: {soundEffectsVolume}");
             var profile = new Profile(name, regularHighScore, challengeHighScore, musicEnabled, musicVolume, soundEffectsEnabled, soundEffectsVolume);
             profiles.Add(profile);
         }

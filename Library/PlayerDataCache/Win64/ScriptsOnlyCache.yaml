@@ -1,13 +1,26 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AddProfileMenuHandler
+    - AdjustCaretHeight
+    - AudioSliderMusic
+    - AudioSliderSoundEffects
+    - AudioToggleMusic
+    - AudioToggleSoundEffects
     - BowlingBall
     - ButtonHoldHandler
     - CameraManager
     - GameManager
     - HighScoreManager
+    - MainMenuSettingsMenuManager
+    - MenuManager
+    - MenuMusicHandler
     - PinBallSpawner
     - PowerBarManager
+    - ProfileManager
+    - ProfileMenuManager
+    - ProfileMenuSettingsMenuManager
+    - RegularBowlingSettingsMenuManager
     - ScoreManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -18,10 +31,13 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelinePreferences
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -31,9 +47,17 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -45,6 +69,11 @@ ScriptsOnlyBuild:
     - TMPro.TMP_GlyphAdjustmentRecord
     - TMPro.TMP_GlyphPairAdjustmentRecord
     - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_InputField/OnChangeEvent
+    - TMPro.TMP_InputField/SelectionEvent
+    - TMPro.TMP_InputField/SubmitEvent
+    - TMPro.TMP_InputField/TextSelectionEvent
+    - TMPro.TMP_InputField/TouchScreenKeyboardEvent
     - TMPro.TMP_Sprite
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
@@ -54,6 +83,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -65,12 +95,406 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioSliderMusic
+    methodName: OnChangeSlider
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioToggleMusic
+    methodName: OnToggle
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioToggleSoundEffects
+    methodName: OnToggle
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioSliderSoundEffects
+    methodName: OnChangeSlider
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: CameraManager
     methodName: SwitchCamera
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioSliderSoundEffects
+    methodName: OnChangeSlider
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioToggleSoundEffects
+    methodName: OnToggle
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioSliderMusic
+    methodName: OnChangeSlider
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioToggleMusic
+    methodName: OnToggle
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioSliderMusic
+    methodName: OnChangeSlider
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioToggleMusic
+    methodName: OnToggle
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioToggleSoundEffects
+    methodName: OnToggle
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioSliderSoundEffects
+    methodName: OnChangeSlider
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   sceneClasses:
+    Assets/Scenes/AddProfileScreen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16642}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16806}
+    - Class: 114
+      Script: {instanceID: 17684}
+    - Class: 114
+      Script: {instanceID: 17820}
+    - Class: 114
+      Script: {instanceID: 17888}
+    - Class: 114
+      Script: {instanceID: 19142}
+    - Class: 114
+      Script: {instanceID: 19920}
+    - Class: 114
+      Script: {instanceID: 19986}
+    - Class: 114
+      Script: {instanceID: 20098}
+    - Class: 114
+      Script: {instanceID: 20652}
+    - Class: 114
+      Script: {instanceID: 20724}
+    - Class: 114
+      Script: {instanceID: 20804}
+    - Class: 114
+      Script: {instanceID: 21118}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16642}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 17264}
+    - Class: 114
+      Script: {instanceID: 17586}
+    - Class: 114
+      Script: {instanceID: 17684}
+    - Class: 114
+      Script: {instanceID: 17888}
+    - Class: 114
+      Script: {instanceID: 19156}
+    - Class: 114
+      Script: {instanceID: 19406}
+    - Class: 114
+      Script: {instanceID: 19978}
+    - Class: 114
+      Script: {instanceID: 20028}
+    - Class: 114
+      Script: {instanceID: 20098}
+    - Class: 114
+      Script: {instanceID: 20312}
+    - Class: 114
+      Script: {instanceID: 20348}
+    - Class: 114
+      Script: {instanceID: 20652}
+    - Class: 114
+      Script: {instanceID: 20804}
+    - Class: 114
+      Script: {instanceID: 21118}
+    - Class: 114
+      Script: {instanceID: 21480}
+    - Class: 114
+      Script: {instanceID: 22378}
+    - Class: 114
+      Script: {instanceID: 22650}
+    - Class: 114
+      Script: {instanceID: 47640}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/ProfileMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16642}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 17586}
+    - Class: 114
+      Script: {instanceID: 17684}
+    - Class: 114
+      Script: {instanceID: 17888}
+    - Class: 114
+      Script: {instanceID: 18342}
+    - Class: 114
+      Script: {instanceID: 18928}
+    - Class: 114
+      Script: {instanceID: 19978}
+    - Class: 114
+      Script: {instanceID: 20028}
+    - Class: 114
+      Script: {instanceID: 20098}
+    - Class: 114
+      Script: {instanceID: 20234}
+    - Class: 114
+      Script: {instanceID: 20348}
+    - Class: 114
+      Script: {instanceID: 20652}
+    - Class: 114
+      Script: {instanceID: 20724}
+    - Class: 114
+      Script: {instanceID: 20804}
+    - Class: 114
+      Script: {instanceID: 21118}
+    - Class: 114
+      Script: {instanceID: 21126}
+    - Class: 114
+      Script: {instanceID: 21480}
+    - Class: 114
+      Script: {instanceID: 21522}
+    - Class: 114
+      Script: {instanceID: 22152}
+    - Class: 114
+      Script: {instanceID: 22378}
+    - Class: 114
+      Script: {instanceID: 168648}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/RegularBowling.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -90,8 +514,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 64
@@ -100,6 +522,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -107,45 +533,55 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16682}
+      Script: {instanceID: 16642}
     - Class: 114
-      Script: {instanceID: 17218}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 17262}
+      Script: {instanceID: 17220}
     - Class: 114
-      Script: {instanceID: 17680}
+      Script: {instanceID: 17586}
     - Class: 114
-      Script: {instanceID: 17882}
+      Script: {instanceID: 17684}
     - Class: 114
-      Script: {instanceID: 18018}
+      Script: {instanceID: 17888}
     - Class: 114
-      Script: {instanceID: 18172}
+      Script: {instanceID: 18024}
     - Class: 114
-      Script: {instanceID: 18668}
+      Script: {instanceID: 18672}
     - Class: 114
-      Script: {instanceID: 18676}
+      Script: {instanceID: 18680}
     - Class: 114
-      Script: {instanceID: 18922}
+      Script: {instanceID: 18928}
     - Class: 114
-      Script: {instanceID: 19106}
+      Script: {instanceID: 19112}
     - Class: 114
-      Script: {instanceID: 19150}
+      Script: {instanceID: 19978}
     - Class: 114
-      Script: {instanceID: 19400}
+      Script: {instanceID: 20028}
     - Class: 114
-      Script: {instanceID: 20090}
+      Script: {instanceID: 20098}
     - Class: 114
-      Script: {instanceID: 20122}
+      Script: {instanceID: 20130}
     - Class: 114
-      Script: {instanceID: 20532}
+      Script: {instanceID: 20348}
     - Class: 114
-      Script: {instanceID: 20636}
+      Script: {instanceID: 20546}
     - Class: 114
-      Script: {instanceID: 20786}
+      Script: {instanceID: 20552}
     - Class: 114
-      Script: {instanceID: 21100}
+      Script: {instanceID: 20652}
     - Class: 114
-      Script: {instanceID: 22358}
+      Script: {instanceID: 20804}
+    - Class: 114
+      Script: {instanceID: 21118}
+    - Class: 114
+      Script: {instanceID: 21480}
+    - Class: 114
+      Script: {instanceID: 22378}
+    - Class: 114
+      Script: {instanceID: 22380}
+    - Class: 114
+      Script: {instanceID: 22650}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -167,6 +603,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -223,7 +665,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: c13571fdb5539f703a1d1cf20efbf24d
+      Hash: 96f1847994f183a2e579d5b264b23da5
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -277,6 +719,12 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 431f6d0b7a269b0327aba06fcf60e0ae
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioToggleMusic
+  - hash:
+      serializedVersion: 2
       Hash: e987953190eb4c12cf19df790566dc2c
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -311,6 +759,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 06d4aa6026a3e7d4039b99042ae23417
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AdjustCaretHeight
   - hash:
       serializedVersion: 2
       Hash: fce9b835d1e8b08e7ecea8da19f21986
@@ -383,12 +837,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ToggleGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 915204dac8acad99f076d6e72ada0a0f
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Button
   - hash:
       serializedVersion: 2
       Hash: d90629714fa6b0145fcaffc87f5c6559
@@ -481,7 +929,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 51b2bc05aa4d68b39e9ad969730831d9
+      Hash: 65a29c6a1920a9960b993d612fbfd854
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BowlingBall
@@ -673,6 +1121,12 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: ba35358d78a6cb28ad8c6f4eab260e54
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AddProfileMenuHandler
+  - hash:
+      serializedVersion: 2
       Hash: 522f6865b4ec12522e602206785309f8
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -715,6 +1169,12 @@ ScriptsOnlyBuild:
     className: CameraManager
   - hash:
       serializedVersion: 2
+      Hash: 063cdf36224f8bfc3cdbc0c6f77e7479
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ProfileMenuManager
+  - hash:
+      serializedVersion: 2
       Hash: d82086405f46de14829f6b4bcbdd8fc9
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -733,10 +1193,22 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: 3ff9ebc2b2dd7661a1d6b51a5d5d2f0c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuManager
+  - hash:
+      serializedVersion: 2
       Hash: bf0842d88681628b29beb00b5e2ab785
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bf625a920a3873adf1f395ee6165c527
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioSliderSoundEffects
   - hash:
       serializedVersion: 2
       Hash: b5007673bbbdb9d12597a1d8201370f5
@@ -751,16 +1223,28 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 7188997dc9b2e8f17bdcf902609bdfcb
+      Hash: 74af0ca61b48ba446d85d768595ca7c7
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ScoreManager
+  - hash:
+      serializedVersion: 2
+      Hash: c39a47dcd8d2a9148c1f773f4455d8a8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RegularBowlingSettingsMenuManager
   - hash:
       serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 33e8f94a3fe657a0752deaee0b17c895
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ProfileManager
   - hash:
       serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe
@@ -839,6 +1323,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 5db84271c32d6ae1716c9a9c6a2b699f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioSliderMusic
   - hash:
       serializedVersion: 2
       Hash: 17142b03663387290480c82303274c02
@@ -967,6 +1457,12 @@ ScriptsOnlyBuild:
     className: UnityOnParticleCollisionMessageListener
   - hash:
       serializedVersion: 2
+      Hash: de35189cd1255a12901e5c6e8423d64e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioToggleSoundEffects
+  - hash:
+      serializedVersion: 2
       Hash: bc18685f344d89966304a13e6f80c48d
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1003,6 +1499,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 52b50aebcb5ec9519527d808ea9efec9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuMusicHandler
+  - hash:
+      serializedVersion: 2
       Hash: ff76cf6cf52b4db7b95af6ffadca9288
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1037,7 +1539,22 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d8820b8aa07750f4c4cb610504b1aa16
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenuSettingsMenuManager
+  - hash:
+      serializedVersion: 2
+      Hash: b3cbc820eb6dd1b759a1fe35733260cb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ProfileMenuSettingsMenuManager
   platform: 19
   scenePathNames:
+  - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/RegularBowling.unity
+  - Assets/Scenes/ProfileMenu.unity
+  - Assets/Scenes/AddProfileScreen.unity
   playerPath: H:/Balik/Documents/UnityBowling/Bowling Mini Project.exe

@@ -7,6 +7,7 @@ public class AudioToggleMusic : MonoBehaviour
 {
     private const string ProfilesKey = "Profiles";
 
+    [SerializeField]
     private int currentProfile;
     [SerializeField]
     private AudioSource audioSource;
@@ -16,10 +17,10 @@ public class AudioToggleMusic : MonoBehaviour
         audioSource.mute = !audioSource.mute;
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
+        audioSource = GameObject.FindGameObjectWithTag("Music").GetComponent<AudioSource>();
         currentProfile = PlayerPrefs.GetInt(ProfilesKey + "_Selected");
-        audioSource.mute = PlayerPrefs.GetInt($"{ProfilesKey}_{currentProfile}_MusicEnabled") == 1 ? false : true;
+        audioSource.mute = PlayerPrefs.GetInt($"{ProfilesKey}_{currentProfile}_MusicEnabled", 1) == 1 ? false : true;
     }
 }

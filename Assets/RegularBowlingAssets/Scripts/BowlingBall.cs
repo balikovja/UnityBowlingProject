@@ -13,10 +13,13 @@ public class BowlingBall : MonoBehaviour
     private GameObject guideLine;
     private bool isBowling = false;
     public PinBallSpawner pinBallSpawner;
+    public AudioSource pinSoundHandler;
+    private bool collided = false;
 
     private void Start()
     {
         pinBallSpawner = FindObjectOfType<PinBallSpawner>();
+        pinSoundHandler = GameObject.Find("PinSoundHandler").GetComponent<AudioSource>();
     }
 
     public IEnumerator BowlCoroutine(float forwardForce)
@@ -100,5 +103,20 @@ public class BowlingBall : MonoBehaviour
     public void SetGuideLine(GameObject guideLine)
     {
         this.guideLine = guideLine;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Pin") && !collided)
+        {
+            // Play the collision sound
+            collided = true;
+            pinSoundHandler.Play();
+        }
+    }
+
+    public void ResetCollided()
+    {
+        collided = false;
     }
 }

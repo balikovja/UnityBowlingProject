@@ -6,19 +6,27 @@ public class AudioToggleSoundEffects : MonoBehaviour
 {
     private const string ProfilesKey = "Profiles";
 
+    [SerializeField]
     private int currentProfile;
     [SerializeField]
-    private AudioSource audioSource;
+    private List<AudioSource> sources = new List<AudioSource>();
 
     public void OnToggle()
     {
-        audioSource.mute = !audioSource.mute;
+        foreach (AudioSource source in sources)
+        {
+            source.mute = !source.mute;
+        }
     }
 
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         currentProfile = PlayerPrefs.GetInt(ProfilesKey + "_Selected");
-        audioSource.mute = PlayerPrefs.GetInt($"{ProfilesKey}_{currentProfile}_SoundEffectsEnabled") == 1 ? false : true;
+        bool playerPrefMute = PlayerPrefs.GetInt($"{ProfilesKey}_{currentProfile}_SoundEffectsEnabled", 1) == 1 ? false : true;
+        foreach (AudioSource source in sources)
+        {
+            source.mute = playerPrefMute;
+        }
     }
 }

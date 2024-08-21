@@ -72,13 +72,13 @@ public class Profile
         get { return _musicVolume; }
         private set
         {
-            if (value >= 0.0001 && value <= 1.0000)
+            if (value >= 0.00009 && value <= 1.00001)
             {
                 _musicVolume = value;
             }
             else
             {
-                throw new ArgumentException("Music volume must be between 0.0001 and 1.0000 (inclusive).");
+                throw new ArgumentException($"Music volume must be between 0.0001 and 1.0000 (inclusive). Given: {value}");
             }
         }
     }
@@ -97,13 +97,13 @@ public class Profile
         get { return _soundEffectsVolume; }
         private set
         {
-            if (value >= 0.0001 && value <= 1.0000)
+            if (value >= 0.00009 && value <= 1.00001)
             {
                 _soundEffectsVolume = value;
             }
             else
             {
-                throw new ArgumentException("Sound effects volume must be between 0.0001 and 1.0000 (inclusive).");
+                throw new ArgumentException($"Sound effects volume must be between 0.0001 and 1.0000 (inclusive). Given: {value}");
             }
         }
     }
