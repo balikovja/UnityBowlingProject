@@ -1,418 +1,251 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1724216452885431, "dur":53, "ph":"X", "name": "EmitBuildStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724216452878852, "dur":9145, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724216452888006, "dur":129, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724216452888166, "dur":464, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724216452888669, "dur":3205, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724216452891876, "dur":218368, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724216453110246, "dur":294, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724216453110540, "dur":136, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724216453110754, "dur":117, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724216453110952, "dur":2445, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1724216452889122, "dur":2766, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1724216452891893, "dur":3405, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1724216452897272, "dur":591, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1724216452897869, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1724216452898076, "dur":185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1724216452898262, "dur":186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1724216452898555, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452898935, "dur":202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452899138, "dur":301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452899441, "dur":472, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452899915, "dur":842, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452900760, "dur":1217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452901980, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452902207, "dur":605, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452902815, "dur":445, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\PackageCache\\com.unity.visualscripting@1.9.2\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452903263, "dur":306, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452903571, "dur":426, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452903999, "dur":518, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452904519, "dur":307, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452904829, "dur":1603, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452906437, "dur":620, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452907061, "dur":3071, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452910135, "dur":768, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452910905, "dur":230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452911136, "dur":185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452911323, "dur":292, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452911617, "dur":289, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452911907, "dur":308, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452912216, "dur":1291, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452913518, "dur":5244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452918768, "dur":247, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playere488a7a2-inputdata.json" }}
-,{ "pid":12345, "tid":1, "ts":1724216452919054, "dur":757, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452919813, "dur":1068, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452920884, "dur":1235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452922123, "dur":1063, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452923188, "dur":445, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452923635, "dur":1098, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
-,{ "pid":12345, "tid":1, "ts":1724216452924735, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TinyProfiler2.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452924980, "dur":991, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452925972, "dur":655, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452926629, "dur":1138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452927769, "dur":862, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452928634, "dur":315, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452928951, "dur":860, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452929813, "dur":296, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452930112, "dur":254, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452930368, "dur":559, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452930930, "dur":406, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
-,{ "pid":12345, "tid":1, "ts":1724216452931337, "dur":2457, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452933797, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452934054, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452934235, "dur":237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452934473, "dur":197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452934671, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
-,{ "pid":12345, "tid":1, "ts":1724216452934826, "dur":1047, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452935875, "dur":751, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452936628, "dur":1377, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452938007, "dur":954, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452938963, "dur":865, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452939830, "dur":706, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452940538, "dur":232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452940772, "dur":247, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452941021, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452941190, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Linker.Api.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452941368, "dur":795, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
-,{ "pid":12345, "tid":1, "ts":1724216452897868, "dur":44297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1724216452942475, "dur":71, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1724216452943213, "dur":163589, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1724216453108273, "dur":279, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1724216453108272, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1724216453108581, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1724216452889246, "dur":2663, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724216452891914, "dur":521, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724216452892435, "dur":3024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724216452895460, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1724216452903135, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1724216452906101, "dur":3906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1724216452910042, "dur":3130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724216452910041, "dur":3132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724216452913174, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724216452913485, "dur":7403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724216452920926, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724216452921016, "dur":8677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724216452930246, "dur":153, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724216452930410, "dur":7690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724216452938138, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724216452938235, "dur":5330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724216452943632, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724216452943720, "dur":5308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724216452949109, "dur":5123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724216452954267, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724216452954400, "dur":5319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724216452959750, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724216452959950, "dur":7142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724216452967138, "dur":12155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1724216452979380, "dur":130860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452889186, "dur":2713, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452891903, "dur":378, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452892282, "dur":3024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452895318, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452895669, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1724216452895734, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452902106, "dur":2800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1724216452904910, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1724216452905005, "dur":1137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452906880, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1724216452908576, "dur":1194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":3, "ts":1724216452908575, "dur":1197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/Bowling Mini Project.exe" }}
-,{ "pid":12345, "tid":3, "ts":1724216452909822, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project.exe" }}
-,{ "pid":12345, "tid":3, "ts":1724216452911824, "dur":536, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724216452911823, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724216452912362, "dur":745, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452913458, "dur":6076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724216452919569, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452919675, "dur":4678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724216452924535, "dur":5476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724216452930082, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452930377, "dur":4904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724216452935310, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452935549, "dur":4818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724216452940416, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452940544, "dur":7147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724216452947738, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452947824, "dur":5872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724216452953786, "dur":5395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724216452959271, "dur":8296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724216452967598, "dur":347, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724216452968026, "dur":8230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1724216452976307, "dur":5735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/level1.resS" }}
-,{ "pid":12345, "tid":3, "ts":1724216452982067, "dur":128162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724216452889294, "dur":2628, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724216452891925, "dur":513, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724216452892438, "dur":3015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724216452895467, "dur":1208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1724216452895455, "dur":1221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1724216452896677, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724216452900678, "dur":5047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1724216452905752, "dur":1199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1724216452905750, "dur":1203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1724216452906954, "dur":391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724216452907370, "dur":5136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1724216452912545, "dur":1633, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724216452912544, "dur":1637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724216452914354, "dur":5185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724216452919571, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724216452919681, "dur":5309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724216452925022, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724216452925180, "dur":3645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724216452929041, "dur":3928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724216452933048, "dur":4051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724216452937130, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724216452937442, "dur":4909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724216452942516, "dur":5984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724216452948613, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724216452948962, "dur":6016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724216452955011, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724216452955112, "dur":5390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724216452960535, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724216452960649, "dur":5303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724216452966022, "dur":4683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":4, "ts":1724216452970757, "dur":6274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/resources.assets" }}
-,{ "pid":12345, "tid":4, "ts":1724216452977140, "dur":5159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/level0" }}
-,{ "pid":12345, "tid":4, "ts":1724216452982322, "dur":127895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724216452889344, "dur":2593, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724216452891940, "dur":534, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724216452892475, "dur":2949, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724216452895436, "dur":1149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":5, "ts":1724216452895426, "dur":1161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1724216452896589, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724216452905107, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724216452899433, "dur":5772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1724216452905729, "dur":5569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1724216452911338, "dur":482, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216452911336, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216452913581, "dur":6691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216452920365, "dur":6864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216452927324, "dur":7949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216452935310, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724216452935544, "dur":5368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216452940954, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724216452941178, "dur":5247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216452946450, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724216452946628, "dur":5052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216452951745, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724216452951878, "dur":5625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216452957542, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724216452963679, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724216452957814, "dur":5964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216452963982, "dur":41527, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216452963981, "dur":41529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216453005571, "dur":14039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724216453019629, "dur":90572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452889396, "dur":2551, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452891949, "dur":362, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452892311, "dur":3156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452895475, "dur":1080, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":6, "ts":1724216452895468, "dur":1089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1724216452896559, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452899621, "dur":3787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1724216452903437, "dur":872, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1724216452903435, "dur":876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1724216452904313, "dur":1707, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452909686, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452906104, "dur":3683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1724216452909827, "dur":6113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724216452909826, "dur":6116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724216452915944, "dur":445, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452916421, "dur":9106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724216452925567, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452925689, "dur":5725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724216452931451, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452931538, "dur":5308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724216452936943, "dur":5328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724216452942298, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452942511, "dur":5504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724216452948042, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452948175, "dur":4302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724216452952509, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452952592, "dur":5775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724216452958394, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452963680, "dur":157, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452958508, "dur":5362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724216452963912, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452963999, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724216452967637, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724216452968019, "dur":7859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1724216452975945, "dur":5340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/level2" }}
-,{ "pid":12345, "tid":6, "ts":1724216452981428, "dur":128805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724216452889437, "dur":2530, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724216452891969, "dur":355, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724216452892324, "dur":3132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724216452895457, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1724216452896655, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724216452901174, "dur":5167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1724216452907033, "dur":4475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1724216452911536, "dur":224, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724216452911535, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724216452913346, "dur":4453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724216452917839, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724216452917934, "dur":5408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724216452923376, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724216452923676, "dur":3648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724216452927410, "dur":4989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724216452932432, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724216452932883, "dur":5202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724216452938224, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724216452938360, "dur":4677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724216452943104, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724216452943449, "dur":4866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724216452948415, "dur":4692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724216452953139, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724216452953579, "dur":5520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724216452959138, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724216452959224, "dur":5388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724216452964697, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1724216452966824, "dur":6401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":7, "ts":1724216452973283, "dur":5004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/level3.resS" }}
-,{ "pid":12345, "tid":7, "ts":1724216452978323, "dur":4254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":7, "ts":1724216452982601, "dur":127598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724216452889490, "dur":2622, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724216452892114, "dur":319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724216452892433, "dur":3012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724216452895450, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1724216452899693, "dur":7527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1724216452907254, "dur":19299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1724216452907252, "dur":19302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1724216452926632, "dur":5848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1724216452932514, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724216452932872, "dur":5694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1724216452938596, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724216452938680, "dur":6033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1724216452944829, "dur":5534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1724216452950391, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724216452950551, "dur":5239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1724216452955892, "dur":5581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1724216452961507, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724216452961699, "dur":5034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1724216452966803, "dur":10074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":8, "ts":1724216452976984, "dur":5407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/level0.resS" }}
-,{ "pid":12345, "tid":8, "ts":1724216452982451, "dur":127776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724216452889543, "dur":2576, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724216452892121, "dur":510, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724216452892631, "dur":2724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724216452895357, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":9, "ts":1724216452900076, "dur":6805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":9, "ts":1724216452906910, "dur":2095, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724216452906908, "dur":2099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724216452909009, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724216452909927, "dur":8434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724216452918426, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724216452918863, "dur":5623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724216452924590, "dur":4318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724216452928948, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724216452929157, "dur":5451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724216452934644, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724216452934823, "dur":5529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724216452940452, "dur":4879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724216452945365, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724216452945552, "dur":4655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724216452950309, "dur":5487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724216452955833, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724216452961563, "dur":88, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724216452955920, "dur":5781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724216452961746, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724216452961980, "dur":5692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724216452967734, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":9, "ts":1724216452970383, "dur":7742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1724216452978206, "dur":5432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1724216452983668, "dur":126549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452889592, "dur":2530, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452892122, "dur":3187, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452895327, "dur":1670, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":10, "ts":1724216452895312, "dur":1686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":10, "ts":1724216452897000, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452900250, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":10, "ts":1724216452903770, "dur":5836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1724216452909688, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452909754, "dur":448, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452915770, "dur":171, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452910498, "dur":5521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":10, "ts":1724216452916110, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724216452916185, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452916507, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724216452920941, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452921011, "dur":5347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724216452926386, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452926685, "dur":4142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724216452930868, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452930973, "dur":5078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724216452936086, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452936206, "dur":5255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724216452941487, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452941595, "dur":4682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724216452946346, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452946626, "dur":4829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724216452951493, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452951680, "dur":5473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724216452957245, "dur":5396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724216452962685, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724216452962768, "dur":4467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724216452967269, "dur":9434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":10, "ts":1724216452976742, "dur":4918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/level1" }}
-,{ "pid":12345, "tid":10, "ts":1724216452981687, "dur":128536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724216452889666, "dur":2461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724216452892128, "dur":3183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724216452895313, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":11, "ts":1724216452895365, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724216452900912, "dur":4228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":11, "ts":1724216452905170, "dur":1313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":11, "ts":1724216452905168, "dur":1317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1724216452906536, "dur":5816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1724216452912392, "dur":674, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724216452912391, "dur":677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724216452913070, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724216452913420, "dur":6459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724216452919917, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724216452920129, "dur":5671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724216452925850, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724216452925977, "dur":5443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724216452931453, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724216452931531, "dur":4901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724216452936556, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724216452936645, "dur":5617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724216452942301, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724216452942504, "dur":4793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724216452947345, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724216452947467, "dur":4523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724216452952097, "dur":5788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724216452957916, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724216452958000, "dur":6535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724216452964588, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":11, "ts":1724216452966473, "dur":7530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":11, "ts":1724216452974056, "dur":5124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/level3" }}
-,{ "pid":12345, "tid":11, "ts":1724216452979227, "dur":3676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":11, "ts":1724216452982930, "dur":127289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452889714, "dur":2603, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452892317, "dur":2990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452895325, "dur":3298, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1724216452895310, "dur":3315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1724216452898680, "dur":4595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1724216452909719, "dur":524, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452903396, "dur":6861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1724216452910322, "dur":4085, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724216452910321, "dur":4088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724216452914410, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452914575, "dur":7014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724216452921656, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452921768, "dur":7431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724216452929245, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452929343, "dur":5270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724216452934649, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452934826, "dur":4630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724216452939485, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452939560, "dur":6101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724216452945690, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452945769, "dur":5194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724216452950993, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452951067, "dur":5346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724216452956456, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452956549, "dur":5223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724216452961800, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724216452961991, "dur":4527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724216452966588, "dur":8018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1724216452974836, "dur":5473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Balik/Documents/UnityBowling/Bowling Mini Project_Data/level2.resS" }}
-,{ "pid":12345, "tid":12, "ts":1724216452980344, "dur":129890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724216453116139, "dur":1476, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1724219192462189, "dur":56, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724219192462287, "dur":11311, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724219192473608, "dur":94, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724219192473729, "dur":550, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724219192475457, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1724219192474311, "dur":3239, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724219192477552, "dur":191245, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724219192668798, "dur":157, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724219192668955, "dur":188, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724219192669190, "dur":63, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724219192669414, "dur":2202, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1724219192474791, "dur":2775, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1724219192477571, "dur":3452, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1724219192483843, "dur":62, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1724219192484001, "dur":646, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1724219192484654, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1724219192485150, "dur":298, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724219192485450, "dur":306, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724219192485758, "dur":405, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724219192486165, "dur":517, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724219192486684, "dur":770, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724219192487456, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724219192487693, "dur":533, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Balik\\Documents\\UnityProjects\\Bowling Mini Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724219192488289, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player7ad5e04e-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1724219192484652, "dur":3963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1724219192488919, "dur":63, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1724219192489715, "dur":175904, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1724219192667086, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1724219192667085, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/Bowling Mini Project_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1724219192667325, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1724219192474905, "dur":2682, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1724219192477589, "dur":589, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1724219192478178, "dur":2858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1724219192482682, "dur":4441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1724219192487213, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1724219192492207, "dur":9304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724219192501559, "dur":5362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724219192506959, "dur":8042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724219192515105, "dur":6260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724219192521455, "dur":5595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724219192527106, "dur":6181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724219192533337, "dur":7508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724219192540922, "dur":6716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724219192547676, "dur":7125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724219192554901, "dur":8885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1724219192563880, "dur":6676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1724219192570592, "dur":4166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1724219192574783, "dur":94004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724219192474866, "dur":2710, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724219192477581, "dur":506, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724219192478087, "dur":2946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724219192481051, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1724219192481034, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1724219192481956, "dur":8349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1724219192490332, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1724219192491222, "dur":3947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1724219192495220, "dur":9632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724219192505020, "dur":7585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724219192512672, "dur":6835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724219192519561, "dur":6006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724219192525610, "dur":6717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724219192532369, "dur":7629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724219192540036, "dur":6690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724219192546778, "dur":7330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724219192554143, "dur":4205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1724219192558421, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1724219192561810, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/Bowling Mini Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1724219192562022, "dur":8231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1724219192570303, "dur":4601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1724219192574931, "dur":93865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724219192474949, "dur":2642, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724219192477594, "dur":692, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724219192478287, "dur":2922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724219192485679, "dur":3712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1724219192489435, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1724219192489577, "dur":7151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1724219192496774, "dur":6897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724219192509747, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724219192503707, "dur":6145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724219192509902, "dur":6189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724219192516133, "dur":6256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724219192522437, "dur":5735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724219192528302, "dur":5742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724219192534109, "dur":5125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724219192539277, "dur":4791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724219192544111, "dur":6318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724219192550474, "dur":6132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724219192556641, "dur":8299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1724219192564997, "dur":6581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1724219192571601, "dur":97188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1724219192474989, "dur":2641, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1724219192477632, "dur":409, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1724219192478041, "dur":3073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1724219192481127, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1724219192481115, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1724219192485568, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1724219192489373, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1724219192493026, "dur":11219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724219192504279, "dur":6611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724219192510929, "dur":6335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724219192517307, "dur":5783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724219192523158, "dur":6280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724219192529492, "dur":6377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724219192535912, "dur":7478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724219192543430, "dur":7333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724219192550828, "dur":6759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724219192557644, "dur":7546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1724219192565228, "dur":6873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1724219192572121, "dur":96665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1724219192475045, "dur":2598, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1724219192477644, "dur":331, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1724219192477975, "dur":273, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1724219192478248, "dur":2903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1724219192481152, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1724219192486889, "dur":3675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1724219192492034, "dur":8997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724219192501309, "dur":4740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724219192506268, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724219192506266, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/Bowling Mini Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724219192506386, "dur":5694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724219192512122, "dur":7101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724219192519264, "dur":5757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724219192525055, "dur":6211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724219192531301, "dur":7017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724219192538477, "dur":5654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724219192544197, "dur":7252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724219192551489, "dur":6026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724219192557562, "dur":9828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1724219192567449, "dur":6228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1724219192573711, "dur":95079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724219192475088, "dur":2558, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724219192477648, "dur":354, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724219192478002, "dur":3175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724219192481178, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1724219192483959, "dur":3452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1724219192488342, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1724219192490605, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724219192490603, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724219192491683, "dur":11684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724219192508363, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724219192503409, "dur":5071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724219192508549, "dur":6855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724219192515448, "dur":6065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724219192521559, "dur":5875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724219192527494, "dur":5983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724219192533558, "dur":7198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724219192540799, "dur":6294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724219192547138, "dur":6636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724219192553915, "dur":3591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1724219192557563, "dur":13700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1724219192571325, "dur":3933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1724219192575284, "dur":93497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1724219192475141, "dur":2690, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1724219192477833, "dur":486, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1724219192478319, "dur":2812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1724219192481132, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1724219192486313, "dur":4303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1724219192490641, "dur":923, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":8, "ts":1724219192490640, "dur":926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/Bowling Mini Project.exe" }}
+,{ "pid":12345, "tid":8, "ts":1724219192491582, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project.exe" }}
+,{ "pid":12345, "tid":8, "ts":1724219192493350, "dur":10021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724219192503407, "dur":6831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724219192510275, "dur":6674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724219192516981, "dur":6059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724219192523085, "dur":7721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724219192530854, "dur":6711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724219192537612, "dur":5101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724219192542740, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724219192542835, "dur":6621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724219192549501, "dur":7304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724219192556842, "dur":9467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1724219192566360, "dur":6213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1724219192572616, "dur":96182, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1724219192475191, "dur":2855, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1724219192478047, "dur":3060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1724219192481107, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1724219192485010, "dur":4619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1724219192489770, "dur":5674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1724219192495538, "dur":8195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724219192503813, "dur":10760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724219192514676, "dur":6074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724219192520791, "dur":5383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724219192526210, "dur":6184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724219192532420, "dur":6828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724219192539308, "dur":6067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724219192545415, "dur":6514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724219192551956, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724219192552041, "dur":24768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724219192576827, "dur":91969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724219192475250, "dur":2934, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724219192478184, "dur":2851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724219192481060, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1724219192481036, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1724219192481171, "dur":70, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724219192486609, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724219192484366, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1724219192491194, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724219192486771, "dur":4514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1724219192491342, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/Bowling Mini Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1724219192492196, "dur":4930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1724219192497165, "dur":8432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724219192505658, "dur":5702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724219192511403, "dur":6250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724219192517700, "dur":5419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724219192523162, "dur":7639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724219192530851, "dur":6711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724219192537609, "dur":5196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724219192542849, "dur":5551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724219192548451, "dur":7480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724219192556056, "dur":8998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1724219192565098, "dur":6463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1724219192571595, "dur":97199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1724219192475306, "dur":2889, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1724219192478196, "dur":2942, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1724219192481147, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Program Files\\Unity\\Hub\\Editor\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1724219192481139, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1724219192487701, "dur":5086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1724219192493003, "dur":10123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724219192503170, "dur":7072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724219192510280, "dur":6651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724219192516976, "dur":6058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724219192523077, "dur":6949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724219192530078, "dur":6650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724219192536774, "dur":6075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724219192542899, "dur":6155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724219192549165, "dur":7349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724219192556602, "dur":10444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1724219192567112, "dur":7192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1724219192574341, "dur":94442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1724219192475349, "dur":2854, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1724219192478203, "dur":2828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1724219192481100, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Bowling Game Unity/Bowling Mini Project_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1724219192482974, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1724219192486109, "dur":3938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1724219192490109, "dur":5922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1724219192496128, "dur":9004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724219192505169, "dur":6503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724219192511716, "dur":6889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724219192518647, "dur":5393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724219192524081, "dur":7111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724219192531262, "dur":6946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724219192538322, "dur":5668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724219192544035, "dur":7139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724219192551215, "dur":6271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724219192557618, "dur":7177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1724219192564856, "dur":5433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1724219192570329, "dur":5066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Bowling Game Unity/Bowling Mini Project_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1724219192575415, "dur":93369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724219192674534, "dur":948, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
