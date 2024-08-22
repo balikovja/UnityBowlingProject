@@ -14,6 +14,7 @@ Future development will add:
 - More accurate dimensions
 - Challenge Mode (Obstacles like Wii Sports Bowling training mode, with specific pin setups)
 - Local Multiplayer
+- Achievements
 
 ## Employers
 If you would like to investigate the C# coding/scripting, please look for C# scripts in the Assets folder.
